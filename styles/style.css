@@ -15,14 +15,14 @@
 
 body, html{
     background-color: #5f2c82;
-    height: 98vh;
-    width: 98vw;
+    height: 95vh;
+    width: 95vw;
 }
 
 main{
     position: relative;
-    height: 98vh;
-    width: 98vw;
+    height: 95vh;
+    width: 95vw;
 }
 
 #login{
