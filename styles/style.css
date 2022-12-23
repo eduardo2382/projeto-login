@@ -31,8 +31,8 @@ main{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 260px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -60,4 +60,85 @@ main{
 
 #formulario p{
     font-size: 0.8em;
+}
+
+#entrar{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#entrar:hover{
+    background-color: #357573;
+}
+
+a{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: white;
+    color: #357573;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover{
+    background-color: #62cfcc;
+}
+
+a span{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.campo{
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 2px solid #5f2c82;
+}
+
+label{
+    display: none;
+}
+
+.campo i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.campo input{
+    background-color: #5eccc8;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translate(1px, -13px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.campo input:focus{
+    background-color: white;
+    border: none;
 }
